@@ -1,0 +1,8 @@
+The main problem was that git has switched to ssh authentication, but the remote set-url was still requesting
+for user authentication. 
+
+FIX:
+git remove set-url origin {ssh url from repo}
+
+LINK:
+https://stackoverflow.com/questions/46337566/why-is-github-asking-me-username-password-although-i-setup-ssh-authentication/46337804
